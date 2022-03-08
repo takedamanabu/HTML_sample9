@@ -23,7 +23,7 @@ main {
   background-color: #eee;
 }
 
-.step-box:last-child {
+.step-box :last-child {
   margin-right: 0;
 }
 
@@ -68,11 +68,21 @@ footer {
 @media screen and (max-width:768px) {
 header {
   width: 100%;
+  margin-bottom: 50px;
 }
 
 main {
-  width: 100%;
+  width: 90%;
   display: block;
+}
+
+.step-box {
+  width: 100%;
+  margin: 0 0 20px 0;
+}
+
+footer {
+  margin-top: 50px;
 }
 
 }
